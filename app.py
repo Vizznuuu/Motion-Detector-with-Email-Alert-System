@@ -8,9 +8,9 @@ from email.mime.text import MIMEText
 import time
 
 # Email configuration
-sender_email = 'vishnuprasad280204@gmail.com'
-receiver_email = 'vishnuprasad280204@gmail.com'
-password = 'mjtt eiyi ymyz iqgd'
+sender_email = <SENDER MAIL ID>
+receiver_email = <RECEIVER MAIL ID>
+password = <SET PASSWORD>
 smtp_server = 'smtp.gmail.com'
 smtp_port = 587
 
@@ -54,10 +54,6 @@ while True:
         print("Failed to grab frame")
         break
     
-    # Process the frame here for motion detection
-    # For example: check for motion...
-
-    # Simulating motion detection for testing
     motion_detected = True  # Change this condition based on actual detection logic
     if motion_detected:
         image_path = 'captured_image.jpg'
